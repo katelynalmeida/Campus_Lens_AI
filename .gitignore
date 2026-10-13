@@ -1,0 +1,28 @@
+# Python virtual environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+.venv/
+env/
+.pytest_cache/
+
+# Local application data (created by the backend)
+backend/campuslens.db
+backend/campuslens.db-*
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Node dependencies and build
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local environment configs
+.env
+.env.local
+*.local
+
+# Operating System
+.DS_Store
+Thumbs.db
